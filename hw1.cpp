@@ -3,7 +3,7 @@
 using namespace std;
 
 int main(){
-    signed char age=18; //There is no byte variable in c++, there is only std::byte, which cannot be used in arithmetic. As such, a signed char can also hold an 8-bit signed integer, so a signed char has been used instead.
+    short age=18;
     short year=2024;
     int population=123456;
     long distance=1234567890;
