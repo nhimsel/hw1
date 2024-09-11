@@ -3,7 +3,7 @@
 using namespace std;
 
 int main(){
-    short age=18;
+    signed char age=18;
     short year=2024;
     int population=123456;
     long distance=1234567890;
