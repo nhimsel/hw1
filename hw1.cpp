@@ -3,7 +3,7 @@
 using namespace std;
 
 int main(){
-    signed char age=18;
+    short age=18;
     short year=2024;
     int population=123456;
     long distance=1234567890;
@@ -18,7 +18,7 @@ int main(){
     temperature-=5.5;
     pi+=.001;
     isStudent=false;
-    cout<<+age<<"     "<<year<<"    "<<combined<<"\n";
+    cout<<age<<"     "<<year<<"    "<<combined<<"\n";
     cout<<population<<"     "<<distance<<"    "<<difference<<"\n";
     cout<<divResult<<"\n";
     cout<<grade<<"     "<<temperature<<"     "<<pi<<"\n";
